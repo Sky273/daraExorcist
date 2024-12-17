@@ -1,0 +1,185 @@
+{
+  "app": {
+    "title": "DataExorcist",
+    "subtitle": "Secure your data with",
+    "highlight": "intelligent anonymization",
+    "description": "DataExorcist uses advanced AI to intelligently identify and protect sensitive information in your datasets, ensuring compliance and maintaining data privacy.",
+    "version": "v0.4"
+  },
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "mainApp": "App",
+    "dashboard": "Dashboard",
+    "getStarted": "Get Started",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Start Anonymizing",
+      "secondary": "Learn More"
+    }
+  },
+  "features": {
+    "title": "Powerful Features",
+    "subtitle": "Everything you need to protect sensitive data",
+    "items": {
+      "analysis": {
+        "title": "Smart Analysis",
+        "description": "Automatically detect sensitive data patterns in your files"
+      },
+      "formats": {
+        "title": "Multiple Formats",
+        "description": "Support for CSV, Excel, and other common data formats"
+      },
+      "anonymization": {
+        "title": "Flexible Anonymization",
+        "description": "Choose from various anonymization methods for each data type"
+      },
+      "privacy": {
+        "title": "Privacy First",
+        "description": "Your data never leaves your browser - complete privacy guaranteed"
+      },
+      "preview": {
+        "title": "Live Preview",
+        "description": "See anonymized data in real-time before exporting"
+      },
+      "export": {
+        "title": "Multiple Exports",
+        "description": "Export to CSV, Excel, or SQL with preserved structure"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Simple steps to protect your data",
+    "steps": {
+      "upload": {
+        "title": "Upload Data",
+        "description": "Upload your CSV or Excel file securely"
+      },
+      "detection": {
+        "title": "Smart Detection",
+        "description": "AI automatically identifies sensitive data patterns"
+      },
+      "configure": {
+        "title": "Configure",
+        "description": "Choose anonymization methods for each column"
+      },
+      "anonymize": {
+        "title": "Anonymize",
+        "description": "Apply selected anonymization rules"
+      },
+      "preview": {
+        "title": "Preview",
+        "description": "Review the anonymized data in real-time"
+      },
+      "export": {
+        "title": "Export",
+        "description": "Download your protected data in preferred format"
+      }
+    },
+    "cta": {
+      "title": "Ready to protect your data?",
+      "button": "Start Now"
+    }
+  },
+  "mainApp": {
+    "title": "Data Anonymization",
+    "description": "Upload your data file to begin the anonymization process",
+    "upload": {
+      "dropzone": {
+        "active": "Drop your file here",
+        "inactive": "Drag and drop your file here",
+        "or": "or click to browse"
+      },
+      "formats": "Supported formats: CSV, Excel (.xlsx, .xls)",
+      "errors": {
+        "size": "File size exceeds 50MB limit",
+        "format": "Unsupported file format",
+        "empty": "File is empty",
+        "invalid": "Invalid file content"
+      }
+    },
+    "preview": {
+      "showing": "Showing {{start}} to {{end}} of {{total}} rows",
+      "page": "Page {{current}} of {{total}}",
+      "showAnonymization": "Show anonymization",
+      "hideAnonymization": "Hide anonymization",
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "anonymization": {
+    "settings": "Anonymization Settings",
+    "methods": {
+      "mask": {
+        "name": "Mask",
+        "description": "Replace with asterisks"
+      },
+      "fake": {
+        "name": "Fake",
+        "description": "Replace with realistic data"
+      },
+      "custom": {
+        "name": "Custom",
+        "description": "Use custom pattern"
+      }
+    },
+    "tools": {
+      "mask": {
+        "description": "Hide entire value"
+      },
+      "custom": {
+        "description": "Apply custom pattern"
+      }
+    }
+  },
+  "export": {
+    "title": "Export Options",
+    "csv": "Export CSV",
+    "excel": "Export Excel",
+    "sql": "Export SQL"
+  },
+  "about": {
+    "title": "About DataExorcist",
+    "description": "DataExorcist is a powerful data anonymization tool that helps organizations protect sensitive information while maintaining data utility.",
+    "contact": "For support or inquiries, contact us at support@dataexorcist.com",
+    "changelog": {
+      "title": "Recent Updates",
+      "v04": "v0.4 - Added custom anonymization tools",
+      "v03": "v0.3 - Enhanced pattern detection",
+      "v02": "v0.2 - Added multiple export formats",
+      "v01": "v0.1 - Initial release"
+    }
+  },
+  "header": {
+    "theme": {
+      "light": "Light mode",
+      "dark": "Dark mode"
+    },
+    "language": {
+      "en": "English",
+      "fr": "Français"
+    }
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "legal": "Legal Notice",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "company": "© {{year}} DataExorcist."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "back": "Back"
+  }
+}

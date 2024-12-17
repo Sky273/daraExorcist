@@ -1,0 +1,185 @@
+{
+  "app": {
+    "title": "DataExorcist",
+    "subtitle": "Sécurisez vos données avec",
+    "highlight": "l'anonymisation intelligente",
+    "description": "DataExorcist utilise l'IA avancée pour identifier et protéger intelligemment les informations sensibles dans vos ensembles de données.",
+    "version": "v0.4"
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "mainApp": "Application",
+    "dashboard": "Tableau de bord",
+    "getStarted": "Commencer",
+    "backToHome": "Retour à l'accueil"
+  },
+  "hero": {
+    "cta": {
+      "primary": "Commencer l'anonymisation",
+      "secondary": "En savoir plus"
+    }
+  },
+  "features": {
+    "title": "Fonctionnalités Puissantes",
+    "subtitle": "Tout ce dont vous avez besoin pour protéger les données sensibles",
+    "items": {
+      "analysis": {
+        "title": "Analyse Intelligente",
+        "description": "Détection automatique des motifs de données sensibles"
+      },
+      "formats": {
+        "title": "Formats Multiples",
+        "description": "Support pour CSV, Excel et autres formats courants"
+      },
+      "anonymization": {
+        "title": "Anonymisation Flexible",
+        "description": "Choisissez parmi différentes méthodes pour chaque type de données"
+      },
+      "privacy": {
+        "title": "Confidentialité Prioritaire",
+        "description": "Vos données ne quittent jamais votre navigateur"
+      },
+      "preview": {
+        "title": "Aperçu en Direct",
+        "description": "Visualisez les données anonymisées en temps réel"
+      },
+      "export": {
+        "title": "Exports Multiples",
+        "description": "Exportez vers CSV, Excel ou SQL"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "subtitle": "Étapes simples pour protéger vos données",
+    "steps": {
+      "upload": {
+        "title": "Téléchargement",
+        "description": "Téléchargez votre fichier CSV ou Excel en toute sécurité"
+      },
+      "detection": {
+        "title": "Détection",
+        "description": "L'IA identifie automatiquement les données sensibles"
+      },
+      "configure": {
+        "title": "Configuration",
+        "description": "Choisissez les méthodes d'anonymisation"
+      },
+      "anonymize": {
+        "title": "Anonymisation",
+        "description": "Appliquez les règles sélectionnées"
+      },
+      "preview": {
+        "title": "Aperçu",
+        "description": "Vérifiez les données anonymisées"
+      },
+      "export": {
+        "title": "Export",
+        "description": "Téléchargez vos données protégées"
+      }
+    },
+    "cta": {
+      "title": "Prêt à protéger vos données ?",
+      "button": "Commencer"
+    }
+  },
+  "mainApp": {
+    "title": "Anonymisation des Données",
+    "description": "Téléchargez votre fichier pour commencer l'anonymisation",
+    "upload": {
+      "dropzone": {
+        "active": "Déposez votre fichier ici",
+        "inactive": "Glissez-déposez votre fichier ici",
+        "or": "ou cliquez pour parcourir"
+      },
+      "formats": "Formats supportés : CSV, Excel (.xlsx, .xls)",
+      "errors": {
+        "size": "La taille du fichier dépasse 50Mo",
+        "format": "Format de fichier non supporté",
+        "empty": "Le fichier est vide",
+        "invalid": "Contenu de fichier invalide"
+      }
+    },
+    "preview": {
+      "showing": "Affichage de {{start}} à {{end}} sur {{total}} lignes",
+      "page": "Page {{current}} sur {{total}}",
+      "showAnonymization": "Afficher l'anonymisation",
+      "hideAnonymization": "Masquer l'anonymisation",
+      "previous": "Précédent",
+      "next": "Suivant"
+    }
+  },
+  "anonymization": {
+    "settings": "Paramètres d'Anonymisation",
+    "methods": {
+      "mask": {
+        "name": "Masquer",
+        "description": "Remplacer par des astérisques"
+      },
+      "fake": {
+        "name": "Simuler",
+        "description": "Remplacer par des données réalistes"
+      },
+      "custom": {
+        "name": "Personnalisé",
+        "description": "Utiliser un motif personnalisé"
+      }
+    },
+    "tools": {
+      "mask": {
+        "description": "Masquer la valeur entière"
+      },
+      "custom": {
+        "description": "Appliquer un motif personnalisé"
+      }
+    }
+  },
+  "export": {
+    "title": "Options d'Export",
+    "csv": "Exporter en CSV",
+    "excel": "Exporter en Excel",
+    "sql": "Exporter en SQL"
+  },
+  "about": {
+    "title": "À propos de DataExorcist",
+    "description": "DataExorcist est un outil puissant d'anonymisation qui aide les organisations à protéger les informations sensibles.",
+    "contact": "Pour le support ou les questions, contactez-nous à support@dataexorcist.com",
+    "changelog": {
+      "title": "Mises à jour récentes",
+      "v04": "v0.4 - Ajout d'outils d'anonymisation personnalisés",
+      "v03": "v0.3 - Amélioration de la détection des motifs",
+      "v02": "v0.2 - Ajout de formats d'export multiples",
+      "v01": "v0.1 - Version initiale"
+    }
+  },
+  "header": {
+    "theme": {
+      "light": "Mode clair",
+      "dark": "Mode sombre"
+    },
+    "language": {
+      "en": "English",
+      "fr": "Français"
+    }
+  },
+  "footer": {
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "legal": "Mentions légales",
+    "contact": "Contact",
+    "rights": "Tous droits réservés.",
+    "company": "© {{year}} DataExorcist."
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "success": "Succès",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "confirm": "Confirmer",
+    "back": "Retour"
+  }
+}
